@@ -273,19 +273,19 @@ BEGIN TRANSACTION;
 UPDATE Covid_analyse..CovidVaccinations
 SET 
 	total_tests_per_thousand =	CASE
-									WHEN total_tests_per_thousand = '' OR total_tests_per_thousand = 0 THEN NULL
-									ELSE total_tests_per_thousand
-								END,
+						WHEN total_tests_per_thousand = '' OR total_tests_per_thousand = 0 THEN NULL
+						ELSE total_tests_per_thousand
+					END,
 
-	new_vaccinations =			CASE
-									WHEN new_vaccinations = '' OR new_vaccinations = 0 THEN NULL
-									ELSE new_vaccinations
-								END,
+	new_vaccinations =		CASE
+						WHEN new_vaccinations = '' OR new_vaccinations = 0 THEN NULL
+						ELSE new_vaccinations
+					END,
 
 	total_vaccinations =		CASE
-									WHEN total_vaccinations = '' OR new_vaccinations = 0 THEN NULL
-									ELSE total_vaccinations
-								END
+						WHEN total_vaccinations = '' OR new_vaccinations = 0 THEN NULL
+						ELSE total_vaccinations
+					END
 WHERE
 	total_tests_per_thousand = '' OR total_tests_per_thousand = 0
 	OR new_vaccinations = '' OR new_vaccinations = 0
