@@ -1,4 +1,4 @@
-COVID-19 Data Preparation for Analysis and Visualization
+COVID-19 Data Preparation for Analysis and Visualization.
 This repository contains SQL scripts and Excel files related to the analysis and visualization of COVID-19 data from 2020 to 2021. The work is done using Microsoft SQL Server Management Studio.
 
 Usage
