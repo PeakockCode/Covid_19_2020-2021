@@ -20,3 +20,6 @@ Notes
 - The provided Excel files facilitate easy reference of query results.
 - Source files: CovidDeaths.xlsx and CovidVaccinations.xlsx.
    - Path: source_tables/CovidDeaths.xlsx or CovidVaccinations.xlsx
+- Final Dashboard:
+   - Tableau -> Path: dashboard/The early stages of the COVID-19 pandemic - Global and Regional Impact Overview.twb
+   - Image -> Path: image/The early stages of the COVID-19 pandemic - Global and Regional Impact Overview.png
